@@ -16,6 +16,7 @@ module.exports = {
       'error',
       { functions: 'never', arrays: 'always-multiline', objects: 'always-multiline' },
     ],
+    'no-unused-vars': [1],
     'prefer-const': 'off',
     semi: ['error', 'always'],
     'space-before-function-paren': ['error', { named: 'never' }],
